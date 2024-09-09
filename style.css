@@ -1,0 +1,21 @@
+h1{
+    color: aqua;
+    margin: auto;
+}
+
+#container{
+    display: flex;
+    height: 90vh;
+    width: 90vh;
+}
+
+.row-item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.column-item{
+    flex: 1;
+    border: 2px solid rgb(255, 208, 0);
+}
